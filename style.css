@@ -1,4 +1,54 @@
-html, body {
-  height: 100%;
-  width: 100%;
+*{
+  margin:0;
+}
+body{
+  background: #eee;
+  width: 1440px;
+  overflow: hidden;
+}
+.flex-container{
+  display: flex;
+  margin: 80px auto;
+  width: 55%;  
+}
+h1,p,button{
+font-family: Lexend Deca;
+color: white;
+padding: 20px 0;
+}
+
+.box{
+  padding: 30px;
+  height: 400px;
+  flex-grow: 1;
+  text-align:left;
+}
+.one{
+  background: hsl(31, 77%, 52%);
+}
+.two{
+  background: hsl(184, 100%, 22%);
+}
+.three{
+  background: hsl(179, 100%, 13%);
+}
+button{
+  border-radius:30px;
+  border: 2px solid white;
+  padding: 10px 30px;
+  margin: 80px 0;
+}
+button:hover{ 
+  background: none;
+  border: 2px solid white;
+  color: white
+}
+.b1{
+  color: hsl(179, 100%, 13%);
+}
+.b2{
+  color: hsl(184, 100%, 22%);
+}
+.b3{
+  color: hsl(179, 100%, 13%);
 }

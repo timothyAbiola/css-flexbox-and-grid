@@ -1,0 +1,46 @@
+*{
+  margin:0;
+}
+body{
+  background: ; #eee;
+}
+main{
+  margin: 200px auto;
+  width: 50%;
+}
+.wrapper{
+  width: 100%;
+  max-width: width 960px;
+}
+.flex-container{
+  display: flex;
+  background: black
+}
+.box{
+  height: 100px;
+  min-width: 100px;
+}
+.one{
+  background: #e12e0e;
+  flex-grow: 2;
+}
+.two{
+  background: #d7ab0f;
+  flex-grow: 1;
+}
+.three{
+  background: #179217;
+  flex-grow: 1;
+}
+.four{
+  background: purple;
+  flex-grow: 1;
+}
+.five{
+  background: blue;
+  
+}
+.six{
+  background: black;
+ 
+}
