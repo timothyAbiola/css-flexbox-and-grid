@@ -41,10 +41,10 @@ button{
 button:hover{ 
   background: none;
   border: 2px solid white;
-  color: white
+  color: white;
 }
 .b1{
-  color: hsl(179, 100%, 13%);
+  color: hsl(31, 77%, 52%);
 }
 .b2{
   color: hsl(184, 100%, 22%);
